@@ -13,19 +13,24 @@
     gap: 99px;
 }
 
-.portfolio_link {
-    text-decoration-line: underline;
-    text-decoration-skip-ink: auto;
+.portfolio__screenshot {
+    margin-bottom: 43px;
+}
+
+.portfolio__link {
+    color: #000000;
     font-weight: normal;
     font-size: 18px;
-    color: #000000;
+    text-decoration-line: underline;
+    text-decoration-skip-ink: auto;
 }
 
 @media (min-width: 768px) {
     .portfolio {
         padding: 114px 0 123px 0;
     }
-    .portfolio_link {
+
+    .portfolio__link {
         color: #070707;
     }
 
