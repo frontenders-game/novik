@@ -1,0 +1,58 @@
+/* Reset browser style */
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* main */
+html {
+    font-family: Gilroy, Verdana, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #070707;
+    scroll-behavior: smooth;
+}
+
+ul li {
+    list-style: none;
+}
+
+picture, img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 47px;
+    line-height: 58px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+}
+
+a {
+    font-weight: bold;
+    text-decoration-line: none;
+    color: #828282;
+}
+
+section:nth-child(even) {
+    background-color: #f6f6f6;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    min-width: 317px;
+    /* padding for mobile */
+    padding: 0 29px;
+}

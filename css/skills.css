@@ -1,0 +1,70 @@
+/* Software skills */
+.skills {
+    padding: 83px 0 98px 0;
+}
+
+.skills__title {
+    margin-bottom: 50px;
+}
+
+.skills-items-wrap {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    min-width: auto;
+    min-height: auto;
+    max-width: unset;
+    margin: 0 auto;
+}
+
+.skills_subtext {
+    margin-bottom: 82px;
+}
+
+.skills__icon {
+    width: 89px;
+    height: 89px;
+}
+
+.skills__name {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 24px auto 40px auto;
+    color: #828282;
+    max-width: 80px;
+    min-height: 34px;
+}
+
+.item__rating img {
+    width: 26px;
+    height: 26px;
+}
+
+
+/* 2x2 grid */
+@media (min-width: 768px) {
+    .skills {
+        padding: 91px 0 110px 0;
+    }
+
+    .skills-items-wrap {
+        gap: 150px;
+        max-width: 500px;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .skills__title {
+        margin-bottom: 69px;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .skills-items-wrap {
+        gap: 0;
+        max-width: unset;
+        justify-content: space-between;
+    }
+}

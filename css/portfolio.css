@@ -1,0 +1,35 @@
+
+.portfolio {
+    padding: 82px 0 90px 0;
+}
+
+.portfolio__title {
+    margin-bottom: 65px;
+}
+
+.portfolio-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 99px;
+}
+
+.portfolio_link {
+    text-decoration-line: underline;
+    text-decoration-skip-ink: auto;
+    font-weight: normal;
+    font-size: 18px;
+    color: #000000;
+}
+
+@media (min-width: 768px) {
+    .portfolio {
+        padding: 114px 0 123px 0;
+    }
+    .portfolio_link {
+        color: #070707;
+    }
+
+    .portfolio__title {
+        margin-bottom: 47px;
+    }
+}

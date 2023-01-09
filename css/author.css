@@ -1,0 +1,33 @@
+/* Header title and photo */
+.author {
+    padding: 65px 0 83px 0;
+}
+
+
+.author-title-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: start;
+    align-items: flex-start;
+    gap: 23px;
+    margin-bottom: 50px;
+}
+
+.author__subtitle {
+    margin-top: auto;
+    color: #090909;
+}
+
+@media (min-width: 768px) {
+    .author {
+        padding: 40px 0 104px 0;
+        flex-direction: row;
+        gap: 0;
+    }
+
+    .author-title-wrap {
+        flex-direction: row;
+        margin-bottom: 37px;
+    }
+}

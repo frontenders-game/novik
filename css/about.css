@@ -1,0 +1,26 @@
+/* About me text */
+.about {
+    padding: 81px 0 76px 0;
+    margin-bottom: 18px;
+}
+
+.about__title {
+    margin-bottom: 30px;
+}
+
+.about__items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 100%;
+    width: 485px;
+    gap: 43px;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .about {
+        padding: 120px 0 107px 0;
+    }
+}

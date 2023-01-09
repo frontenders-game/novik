@@ -1,0 +1,105 @@
+/* Footer contact and social network links */
+.contacts {
+    padding: 114px 0 123px 0;
+}
+
+.contacts__title {
+    margin-bottom: 27px;
+}
+
+.contacts__text {
+    margin-bottom: 40px;
+}
+
+/* Block with social networks */
+.socials-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 48px auto 49px auto;
+    max-width: 316px;
+}
+
+.socials__icon {
+    width: 41px;
+    height: 41px;
+    transition: margin-top .3s, transform .3s;
+}
+
+.socials__icon:hover {
+    margin-top: -10px;
+}
+
+.socials__link:hover {
+    color: #070707;
+}
+
+.contacts__button:hover {
+    box-shadow: 0 10px 10px rgba(34, 34, 34, 0.33)
+}
+
+.contacts__button:active,
+.socials__icon:active,
+.socials__link:active {
+    transform: scale(1.5);
+}
+
+.socials__icon:visited,
+.socials__link:visited {
+    opacity: 70%;
+}
+
+/* Subtext to icons  */
+.socials__text, .socials__link {
+    color: #828282;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.contacts__button {
+    display: block;
+    width: 100%;
+    background: #000000;
+    border-radius: 50px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-width: 0;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 auto;
+
+}
+
+@media (min-width: 768px) {
+    .contacts {
+        padding: 82px 0 90px 0;
+    }
+
+    .contacts__title {
+        margin-bottom: 20px;
+    }
+
+    .contacts__text {
+        margin-bottom: 30px;
+    }
+
+    .contacts__button {
+        width: 70%;
+    }
+
+    .socials-wrap {
+        margin: 86px auto 46px auto;
+        max-width: 342px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .contacts__button {
+        width: 180px;
+        max-width: 180px;
+    }
+
+}
+
