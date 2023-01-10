@@ -1,6 +1,8 @@
 # Denis Novik.
 UX | UI designer 24 years old, Minsk
 
+https://frontenders-game.github.io/novik/
+
 ## Adaptive and desktop layouts
 
 Figma:
