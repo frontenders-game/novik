@@ -1,7 +1,6 @@
 /* About me text */
 .about {
-    padding: 81px 0 76px 0;
-    margin-bottom: 18px;
+    padding: 81px 0 76px;
 }
 
 .about__title {
@@ -21,6 +20,12 @@
 
 @media (min-width: 768px) {
     .about {
-        padding: 120px 0 107px 0;
+        padding: 120px 0 107px;
     }
+
+    .about__title {
+        margin-bottom: 18px;
+
+    }
+
 }

@@ -1,6 +1,6 @@
 /* Software skills */
 .skills {
-    padding: 83px 0 98px 0;
+    padding: 83px 0 98px;
 }
 
 .skills__title {
@@ -30,7 +30,7 @@
     font-weight: bold;
     font-size: 14px;
     line-height: 17px;
-    margin: 24px auto 40px auto;
+    margin: 24px auto 40px;
     color: #828282;
     max-width: 80px;
     min-height: 34px;
@@ -45,7 +45,7 @@
 /* 2x2 grid */
 @media (min-width: 768px) {
     .skills {
-        padding: 91px 0 110px 0;
+        padding: 91px 0 110px;
     }
 
     .skills-items-wrap {
@@ -59,7 +59,6 @@
         margin-bottom: 69px;
     }
 }
-
 
 @media (min-width: 1024px) {
     .skills-items-wrap {

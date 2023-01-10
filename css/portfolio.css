@@ -1,6 +1,6 @@
 
 .portfolio {
-    padding: 82px 0 90px 0;
+    padding: 82px 0 90px;
 }
 
 .portfolio__title {
@@ -27,7 +27,7 @@
 
 @media (min-width: 768px) {
     .portfolio {
-        padding: 114px 0 123px 0;
+        padding: 114px 0 123px;
     }
 
     .portfolio__link {

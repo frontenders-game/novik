@@ -1,6 +1,6 @@
 /* Footer contact and social network links */
 .contacts {
-    padding: 114px 0 123px 0;
+    padding: 114px 0 123px;
 }
 
 .contacts__title {
@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 48px auto 49px auto;
+    margin: 48px auto 49px;
     max-width: 316px;
 }
 
@@ -39,7 +39,8 @@
 
 .contacts__button {
     display: block;
-    width: 100%;
+    min-width: 316px;
+    width: 35%;
     background: #000000;
     border-radius: 50px;
     padding-top: 12px;
@@ -73,7 +74,7 @@
 
 @media (min-width: 768px) {
     .contacts {
-        padding: 82px 0 90px 0;
+        padding: 82px 0 90px;
     }
 
     .contacts__title {
@@ -84,12 +85,9 @@
         margin-bottom: 30px;
     }
 
-    .contacts__button {
-        width: 70%;
-    }
 
     .socials-wrap {
-        margin: 86px auto 46px auto;
+        margin: 86px auto 46px;
         max-width: 342px;
     }
 
@@ -97,8 +95,7 @@
 
 @media (min-width: 1024px) {
     .contacts__button {
-        width: 180px;
-        max-width: 180px;
+        max-width: 181px;
     }
 
 }

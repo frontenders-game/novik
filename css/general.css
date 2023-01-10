@@ -50,9 +50,21 @@ section:nth-child(even) {
 }
 
 .container {
-    max-width: 940px;
+    max-width: 1040px;
     margin: 0 auto;
     min-width: 317px;
     /* padding for mobile */
     padding: 0 29px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding: 0 40px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        padding: 0 50px;
+    }
 }

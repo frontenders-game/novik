@@ -1,6 +1,6 @@
 /* Header title and photo */
 .author {
-    padding: 65px 0 83px 0;
+    padding: 65px 0 83px;
 }
 
 
@@ -21,13 +21,12 @@
 
 @media (min-width: 768px) {
     .author {
-        padding: 40px 0 104px 0;
+        padding: 40px 0 104px;
         flex-direction: row;
         gap: 0;
     }
 
     .author-title-wrap {
-        flex-direction: row;
         margin-bottom: 37px;
     }
 }
